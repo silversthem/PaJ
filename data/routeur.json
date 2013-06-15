@@ -1,0 +1,13 @@
+[
+	{
+		"url":"",
+		"module":"index",
+		"type":"multiple",
+		"other":[{"url":"index.html","url":"index.htm"}]
+	},
+	{
+		"url":"style.css",
+		"module":"style",
+		"type":"simple"
+	}
+]
