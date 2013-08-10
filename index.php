@@ -10,6 +10,9 @@ include_once 'system/config.php'; // load system config
 $router = new router('data/routeur.json');
 $router->run();
 
-$end = microtime(TRUE);
-echo '<!-- '.round(($end - $begin),6).' seconds -->';
+if(SPEED == true)
+{
+	$end = microtime(TRUE);
+	echo '<!-- '.round(($end - $begin),6).' seconds -->';
+}
 ?>

@@ -3,11 +3,23 @@
 		"url":"",
 		"module":"index",
 		"type":"multiple",
-		"other":[{"url":"index.html","url":"index.htm"}]
+		"other":[{"url":"index.html"}]
 	},
 	{
 		"url":"style.css",
 		"module":"style",
 		"type":"simple"
+	},
+	{
+		"url":"admin",
+		"module":"admin",
+		"type":"multiple",
+		"other":[{"url":"admin/(\\w+)","vars":"page"}]
+	},
+	{
+		"url":"style",
+		"module":"style",
+		"type":"multiple",
+		"other":[{"url":"style/(\\w+)","vars":"support"}]
 	}
 ]

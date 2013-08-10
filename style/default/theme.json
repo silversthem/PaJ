@@ -1,0 +1,8 @@
+{
+	"theme":"default",
+	"title":"Default theme",
+	"desc":"Default theme",
+	"support":{"admin":{"desc":"Support default admin module","files":["admin.css"],"needdefaultheme":false,"files":["admin.css"],"template":true}},
+	"files":["style.css"],
+	"template":true
+}

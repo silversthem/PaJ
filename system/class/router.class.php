@@ -20,7 +20,7 @@ class router
 	}
 	private function redirect($url,$multiple = false) // include the file who's matching to the url, if $multiple is an array, the function search also in
 	{
-		if(preg_match('#^'.$url['url'].'$#isU', URL,$matches))
+		if(preg_match('#^'.$url['url'].'/?$#isU', URL,$matches))
 		{
 			if(array_key_exists('vars', $url))
 			{
@@ -69,7 +69,7 @@ class router
 		{
 			if($route['type'] == 'multiple')
 			{
-				$this->redirect($route,$route['type']);
+				$this->redirect($route,$route['other']);
 			}
 			else
 			{

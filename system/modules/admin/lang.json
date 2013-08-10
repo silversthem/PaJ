@@ -1,0 +1,4 @@
+{
+	"en":{"c" :"Connect","l":"Login :","m":"Password :","404mod":"The module is not found"},
+	"fr":{"c" :"Connexion","l":"Login :","m":"Mot de passe :","404mod":"Impossible de trouver le module"}
+}
