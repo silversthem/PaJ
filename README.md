@@ -5,9 +5,9 @@ PaJ is a "simple" framework for websites ; It allow you to create all kind of we
 How it works
 ---
 basically you just have to create a directory in 
->/system/modules/
+>/system/modules/<
 and add a index.php, then you have to open the router file at 
->data/routeur.json
+>data/routeur.json<
 The hardest part is to create a link for your module, you just have to create a cell in the main table 
 ```json
 {
