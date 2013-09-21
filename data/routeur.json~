@@ -9,7 +9,7 @@
 		"module":"admin",
 		"type":"multiple",
 		"other":[{"url":"admin/(\\w+)","vars":"page"}],
-		"checkurl":true
+		"checkurl":
 	},
 	{
 		"url":"style",

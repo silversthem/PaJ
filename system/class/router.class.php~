@@ -31,7 +31,7 @@ class router
 				if(file_exists('system/modules/'.$url['module'].'/check.php'))
 				{
 					$check = include('system/modules/'.$url['module'].'/check.php');
-					if($check)
+					if($t)
 					{
 						include_once 'system/modules/'.$url['module'].'/index.php';		
 					}

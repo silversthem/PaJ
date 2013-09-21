@@ -9,7 +9,6 @@ include_once 'system/config.php'; // load system config
 
 $router = new router('data/routeur.json');
 $router->run();
-
 if(SPEED == true)
 {
 	$end = microtime(TRUE);

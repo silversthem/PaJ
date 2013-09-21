@@ -4,7 +4,7 @@
 	"l":"Login :",
 	"m":"Password :",
 	"404mod":"The module is not found",
-	"lolnope":"Wrong password/login"
+	"lolnope":""
 	},
 	"fr":{
 			"c" :"Connexion",
