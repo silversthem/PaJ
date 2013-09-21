@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="style/admin"/>
 </head>
 <body>
-<nav>{{TOPNAV}}</nav>
+<nav id="topnav">{{TOPNAV}}</nav>
 <aside>{{ASIDENAV}}</aside>
 <div id="main">
 {{CONTENT}}
